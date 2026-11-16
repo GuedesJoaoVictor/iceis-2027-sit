@@ -1,0 +1,1150 @@
+{
+ "_note": "Aggregated counts only; no case-level data. Positive class = rejection. tp/fn/fp/tn are counts of cases.",
+ "n_cases": 40,
+ "approved": 20,
+ "rejected": 20,
+ "models": {
+  "gemma": "Gemma 4 26B-A4B (local)",
+  "gpt": "GPT-6 Luna",
+  "gemini": "Gemini 3.5 Flash-Lite",
+  "claude": "Claude Haiku 5.5",
+  "qwen": "Qwen3-VL-8B (local, first round only)"
+ },
+ "conditions": [
+  "text",
+  "text_rag_fixed",
+  "text_rag_case",
+  "text_full_regulation",
+  "text_checklist",
+  "photos",
+  "photos_rag_fixed",
+  "photos_rag_case",
+  "all_photos",
+  "all_photos_checklist"
+ ],
+ "decisions": {
+  "gemma": {
+   "text": {
+    "tp": 4,
+    "fn": 16,
+    "fp": 4,
+    "tn": 16
+   },
+   "text_rag_fixed": {
+    "tp": 4,
+    "fn": 16,
+    "fp": 3,
+    "tn": 17
+   },
+   "text_rag_case": {
+    "tp": 4,
+    "fn": 16,
+    "fp": 3,
+    "tn": 17
+   },
+   "text_full_regulation": {
+    "tp": 2,
+    "fn": 18,
+    "fp": 3,
+    "tn": 17
+   },
+   "text_checklist": {
+    "tp": 8,
+    "fn": 12,
+    "fp": 10,
+    "tn": 10
+   },
+   "photos": {
+    "tp": 5,
+    "fn": 15,
+    "fp": 10,
+    "tn": 10
+   },
+   "photos_rag_fixed": {
+    "tp": 2,
+    "fn": 18,
+    "fp": 4,
+    "tn": 16
+   },
+   "photos_rag_case": {
+    "tp": 5,
+    "fn": 15,
+    "fp": 6,
+    "tn": 14
+   },
+   "all_photos": {
+    "tp": 4,
+    "fn": 16,
+    "fp": 10,
+    "tn": 10
+   },
+   "all_photos_checklist": {
+    "tp": 6,
+    "fn": 14,
+    "fp": 11,
+    "tn": 9
+   }
+  },
+  "gpt": {
+   "text": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_rag_fixed": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_rag_case": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_full_regulation": {
+    "tp": 18,
+    "fn": 2,
+    "fp": 19,
+    "tn": 1
+   },
+   "text_checklist": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos_rag_fixed": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos_rag_case": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "all_photos": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "all_photos_checklist": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   }
+  },
+  "gemini": {
+   "text": {
+    "tp": 2,
+    "fn": 18,
+    "fp": 2,
+    "tn": 18
+   },
+   "text_rag_fixed": {
+    "tp": 1,
+    "fn": 19,
+    "fp": 1,
+    "tn": 19
+   },
+   "text_rag_case": {
+    "tp": 2,
+    "fn": 18,
+    "fp": 0,
+    "tn": 20
+   },
+   "text_full_regulation": {
+    "tp": 2,
+    "fn": 18,
+    "fp": 1,
+    "tn": 19
+   },
+   "text_checklist": {
+    "tp": 10,
+    "fn": 10,
+    "fp": 14,
+    "tn": 6
+   },
+   "photos": {
+    "tp": 1,
+    "fn": 19,
+    "fp": 3,
+    "tn": 17
+   },
+   "photos_rag_fixed": {
+    "tp": 1,
+    "fn": 19,
+    "fp": 2,
+    "tn": 18
+   },
+   "photos_rag_case": {
+    "tp": 1,
+    "fn": 19,
+    "fp": 2,
+    "tn": 18
+   },
+   "all_photos": {
+    "tp": 3,
+    "fn": 17,
+    "fp": 2,
+    "tn": 18
+   },
+   "all_photos_checklist": {
+    "tp": 7,
+    "fn": 13,
+    "fp": 7,
+    "tn": 13
+   }
+  },
+  "claude": {
+   "text": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_rag_fixed": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_rag_case": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_full_regulation": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "text_checklist": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos_rag_fixed": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "photos_rag_case": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 19,
+    "tn": 1
+   },
+   "all_photos": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   },
+   "all_photos_checklist": {
+    "tp": 20,
+    "fn": 0,
+    "fp": 20,
+    "tn": 0
+   }
+  }
+ },
+ "mcnemar_within_model": {
+  "_note": "[only first condition correct, only second condition correct]",
+  "gemma": {
+   "text vs text_rag_fixed": [
+    2,
+    3
+   ],
+   "text vs text_full_regulation": [
+    2,
+    1
+   ],
+   "photos vs photos_rag_fixed": [
+    4,
+    7
+   ],
+   "text vs photos": [
+    7,
+    2
+   ],
+   "text_rag_fixed vs photos_rag_fixed": [
+    4,
+    1
+   ],
+   "text vs text_checklist": [
+    6,
+    4
+   ],
+   "photos vs all_photos": [
+    4,
+    3
+   ],
+   "all_photos vs all_photos_checklist": [
+    5,
+    6
+   ],
+   "text vs text_rag_case": [
+    0,
+    1
+   ],
+   "text_rag_fixed vs text_rag_case": [
+    2,
+    2
+   ],
+   "photos vs photos_rag_case": [
+    2,
+    6
+   ],
+   "photos_rag_fixed vs photos_rag_case": [
+    3,
+    4
+   ]
+  },
+  "gpt": {
+   "text vs text_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs text_full_regulation": [
+    2,
+    1
+   ],
+   "photos vs photos_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs photos": [
+    0,
+    0
+   ],
+   "text_rag_fixed vs photos_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs text_checklist": [
+    0,
+    0
+   ],
+   "photos vs all_photos": [
+    0,
+    0
+   ],
+   "all_photos vs all_photos_checklist": [
+    0,
+    0
+   ],
+   "text vs text_rag_case": [
+    0,
+    0
+   ],
+   "text_rag_fixed vs text_rag_case": [
+    0,
+    0
+   ],
+   "photos vs photos_rag_case": [
+    0,
+    0
+   ],
+   "photos_rag_fixed vs photos_rag_case": [
+    0,
+    0
+   ]
+  },
+  "gemini": {
+   "text vs text_rag_fixed": [
+    1,
+    1
+   ],
+   "text vs text_full_regulation": [
+    1,
+    2
+   ],
+   "photos vs photos_rag_fixed": [
+    0,
+    1
+   ],
+   "text vs photos": [
+    2,
+    0
+   ],
+   "text_rag_fixed vs photos_rag_fixed": [
+    1,
+    0
+   ],
+   "text vs text_checklist": [
+    12,
+    8
+   ],
+   "photos vs all_photos": [
+    0,
+    3
+   ],
+   "all_photos vs all_photos_checklist": [
+    6,
+    5
+   ],
+   "text vs text_rag_case": [
+    1,
+    3
+   ],
+   "text_rag_fixed vs text_rag_case": [
+    0,
+    2
+   ],
+   "photos vs photos_rag_case": [
+    0,
+    1
+   ],
+   "photos_rag_fixed vs photos_rag_case": [
+    0,
+    0
+   ]
+  },
+  "claude": {
+   "text vs text_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs text_full_regulation": [
+    0,
+    0
+   ],
+   "photos vs photos_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs photos": [
+    0,
+    0
+   ],
+   "text_rag_fixed vs photos_rag_fixed": [
+    0,
+    0
+   ],
+   "text vs text_checklist": [
+    0,
+    0
+   ],
+   "photos vs all_photos": [
+    0,
+    0
+   ],
+   "all_photos vs all_photos_checklist": [
+    0,
+    0
+   ],
+   "text vs text_rag_case": [
+    0,
+    0
+   ],
+   "text_rag_fixed vs text_rag_case": [
+    0,
+    0
+   ],
+   "photos vs photos_rag_case": [
+    0,
+    1
+   ],
+   "photos_rag_fixed vs photos_rag_case": [
+    0,
+    1
+   ]
+  }
+ },
+ "mcnemar_gemma_vs_model": {
+  "_note": "[only Gemma correct, only the other model correct], same condition",
+  "gpt": {
+   "text": [
+    16,
+    16
+   ],
+   "text_rag_fixed": [
+    17,
+    16
+   ],
+   "text_full_regulation": [
+    16,
+    16
+   ],
+   "photos": [
+    10,
+    15
+   ],
+   "photos_rag_fixed": [
+    16,
+    18
+   ],
+   "text_checklist": [
+    10,
+    12
+   ],
+   "all_photos": [
+    10,
+    16
+   ],
+   "all_photos_checklist": [
+    9,
+    14
+   ],
+   "text_rag_case": [
+    17,
+    16
+   ],
+   "photos_rag_case": [
+    14,
+    15
+   ]
+  },
+  "gemini": {
+   "text": [
+    4,
+    4
+   ],
+   "text_rag_fixed": [
+    4,
+    3
+   ],
+   "text_full_regulation": [
+    2,
+    4
+   ],
+   "photos": [
+    4,
+    7
+   ],
+   "photos_rag_fixed": [
+    1,
+    2
+   ],
+   "text_checklist": [
+    9,
+    7
+   ],
+   "all_photos": [
+    3,
+    10
+   ],
+   "all_photos_checklist": [
+    1,
+    6
+   ],
+   "text_rag_case": [
+    4,
+    5
+   ],
+   "photos_rag_case": [
+    4,
+    4
+   ]
+  },
+  "claude": {
+   "text": [
+    16,
+    16
+   ],
+   "text_rag_fixed": [
+    17,
+    16
+   ],
+   "text_full_regulation": [
+    17,
+    18
+   ],
+   "photos": [
+    10,
+    15
+   ],
+   "photos_rag_fixed": [
+    16,
+    18
+   ],
+   "text_checklist": [
+    10,
+    12
+   ],
+   "all_photos": [
+    10,
+    16
+   ],
+   "all_photos_checklist": [
+    9,
+    14
+   ],
+   "text_rag_case": [
+    17,
+    16
+   ],
+   "photos_rag_case": [
+    13,
+    15
+   ]
+  }
+ },
+ "rule_missing_category": {
+  "_note": "Rule: reject every case whose dossier lacks one of the document categories.",
+  "tp": 5,
+  "fn": 15,
+  "fp": 7,
+  "tn": 13
+ },
+ "run_variation": {
+  "_note": "Three runs of two conditions, default temperature; per run [correct, rejections].",
+  "gemini text": {
+   "runs": [
+    [
+     20,
+     4
+    ],
+    [
+     19,
+     1
+    ],
+    [
+     18,
+     4
+    ]
+   ],
+   "cases_with_changed_decision": 5
+  },
+  "gemini photos_rag_case": {
+   "runs": [
+    [
+     19,
+     3
+    ],
+    [
+     21,
+     3
+    ],
+    [
+     19,
+     5
+    ]
+   ],
+   "cases_with_changed_decision": 3
+  },
+  "claude text": {
+   "runs": [
+    [
+     20,
+     40
+    ],
+    [
+     20,
+     40
+    ],
+    [
+     20,
+     40
+    ]
+   ],
+   "cases_with_changed_decision": 0
+  },
+  "claude photos_rag_case": {
+   "runs": [
+    [
+     21,
+     39
+    ],
+    [
+     20,
+     40
+    ],
+    [
+     20,
+     40
+    ]
+   ],
+   "cases_with_changed_decision": 1
+  }
+ },
+ "retrieval": {
+  "_note": "Hit = some retrieved passage belongs to an article that establishes the requirement of the category (gold_articles, defined by the authors). REGISTROS_FOTOGRAFICOS (photographic records) is present in every case.",
+  "passages_per_case": {
+   "median": 10.0,
+   "min": 6,
+   "max": 13
+  },
+  "distinct_passage_sets_in_40_cases": 37,
+  "random_baseline_same_k_as_each_case": 0.34,
+  "categories": {
+   "PROGRAMA_AUTOCONTROLE": {
+    "gold_articles": [
+     "Art. 28",
+     "Art. 35"
+    ],
+    "dossiers_with_category": 40,
+    "hit_case_queries": 40,
+    "hit_fixed_query_same_embeddings_same_k": 40,
+    "hit_fixed_query_as_run_for_table": 40
+   },
+   "DECLARACAO_RESPONSABILIDADE": {
+    "gold_articles": [
+     "Art. 35"
+    ],
+    "dossiers_with_category": 39,
+    "hit_case_queries": 26,
+    "hit_fixed_query_same_embeddings_same_k": 39,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "REGISTROS_TREINAMENTO_TRIPULACAO": {
+    "gold_articles": [
+     "Art. 8"
+    ],
+    "dossiers_with_category": 40,
+    "hit_case_queries": 13,
+    "hit_fixed_query_same_embeddings_same_k": 0,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "REGISTROS_CONTROLE_BORDO": {
+    "gold_articles": [
+     "Art. 13",
+     "Art. 28"
+    ],
+    "dossiers_with_category": 38,
+    "hit_case_queries": 38,
+    "hit_fixed_query_same_embeddings_same_k": 38,
+    "hit_fixed_query_as_run_for_table": 38
+   },
+   "DOCUMENTO_TECNICO_MATERIAL_REVESTIMENTO": {
+    "gold_articles": [
+     "Art. 11"
+    ],
+    "dossiers_with_category": 37,
+    "hit_case_queries": 14,
+    "hit_fixed_query_same_embeddings_same_k": 0,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "LAUDO_ANALISE_POTABILIDADE": {
+    "gold_articles": [
+     "Art. 16",
+     "Art. 6"
+    ],
+    "dossiers_with_category": 36,
+    "hit_case_queries": 33,
+    "hit_fixed_query_same_embeddings_same_k": 2,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "DECLARACAO_FORNECEDOR_AGUA_POTAVEL": {
+    "gold_articles": [
+     "Art. 16",
+     "Art. 6"
+    ],
+    "dossiers_with_category": 33,
+    "hit_case_queries": 30,
+    "hit_fixed_query_same_embeddings_same_k": 2,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "DOCUMENTO_CONTROLE_PRAGAS": {
+    "gold_articles": [
+     "Art. 9"
+    ],
+    "dossiers_with_category": 29,
+    "hit_case_queries": 3,
+    "hit_fixed_query_same_embeddings_same_k": 0,
+    "hit_fixed_query_as_run_for_table": 0
+   },
+   "REGISTROS_FOTOGRAFICOS": {
+    "gold_articles": [
+     "Art. 28"
+    ],
+    "dossiers_with_category": 40,
+    "hit_case_queries": 38,
+    "hit_fixed_query_same_embeddings_same_k": 40,
+    "hit_fixed_query_as_run_for_table": 40
+   }
+  },
+  "fixed_query": "Quais evidências e requisitos a Portaria 310/2020 exige para a certificação higiênico-sanitária de embarcações pesqueiras? Analise o dossiê e decida se a certificação deve ser deferida ou indeferida.",
+  "fixed_query_ranking_bge_m3": [
+   "Art. 35",
+   "Art. 31",
+   "Art. 28",
+   "Art. 27",
+   "Art. 1",
+   "ANEXO I",
+   "Art. 32",
+   "Art. 25",
+   "Art. 36",
+   "Art. 26",
+   "Art. 5",
+   "Art. 29",
+   "Art. 16",
+   "ANEXO I",
+   "Art. 7",
+   "Art. 34",
+   "Art. 38",
+   "ANEXO I",
+   "Art. 15",
+   "Art. 10",
+   "Art. 8",
+   "ANEXO I",
+   "Art. 2",
+   "Art. 6",
+   "Art. 9",
+   "Art. 30",
+   "Art. 19",
+   "Art. 6",
+   "Art. 13",
+   "Art. 21",
+   "Art. 33",
+   "Art. 13",
+   "Art. 14",
+   "Art. 13",
+   "Art. 11",
+   "Art. 23",
+   "Art. 3",
+   "Art. 4",
+   "Art. 24",
+   "Art. 20",
+   "Art. 37",
+   "Art. 17",
+   "Art. 12",
+   "ANEXO II",
+   "Art. 22",
+   "Art. 40",
+   "Art. 13",
+   "Art. 18",
+   "Art. 39"
+  ]
+ },
+ "requirement_level": {
+  "_note": "Items = requirements classified by the model and assessed in the analyst's final opinion (39 cases). analyst/model = items flagged by each; both = flagged by both.",
+  "reference_items": 351,
+  "flagged_by_analysts": 129,
+  "of_which_requests_for_supplements": 99,
+  "gemma": {
+   "text": {
+    "items": 312,
+    "analyst": 106,
+    "model": 18,
+    "both": 9
+   },
+   "text_rag_fixed": {
+    "items": 312,
+    "analyst": 106,
+    "model": 12,
+    "both": 6
+   },
+   "text_rag_case": {
+    "items": 312,
+    "analyst": 106,
+    "model": 14,
+    "both": 8
+   },
+   "text_full_regulation": {
+    "items": 312,
+    "analyst": 106,
+    "model": 12,
+    "both": 6
+   },
+   "photos": {
+    "items": 351,
+    "analyst": 129,
+    "model": 26,
+    "both": 12
+   },
+   "photos_rag_fixed": {
+    "items": 347,
+    "analyst": 129,
+    "model": 13,
+    "both": 4
+   },
+   "photos_rag_case": {
+    "items": 348,
+    "analyst": 128,
+    "model": 21,
+    "both": 10
+   }
+  },
+  "gpt": {
+   "text": {
+    "items": 312,
+    "analyst": 106,
+    "model": 165,
+    "both": 68
+   },
+   "text_rag_fixed": {
+    "items": 312,
+    "analyst": 106,
+    "model": 144,
+    "both": 60
+   },
+   "text_rag_case": {
+    "items": 312,
+    "analyst": 106,
+    "model": 150,
+    "both": 63
+   },
+   "text_full_regulation": {
+    "items": 312,
+    "analyst": 106,
+    "model": 123,
+    "both": 58
+   },
+   "photos": {
+    "items": 351,
+    "analyst": 129,
+    "model": 174,
+    "both": 75
+   },
+   "photos_rag_fixed": {
+    "items": 350,
+    "analyst": 129,
+    "model": 145,
+    "both": 61
+   },
+   "photos_rag_case": {
+    "items": 351,
+    "analyst": 129,
+    "model": 165,
+    "both": 71
+   }
+  },
+  "gemini": {
+   "text": {
+    "items": 308,
+    "analyst": 102,
+    "model": 8,
+    "both": 3
+   },
+   "text_rag_fixed": {
+    "items": 306,
+    "analyst": 101,
+    "model": 3,
+    "both": 1
+   },
+   "text_rag_case": {
+    "items": 309,
+    "analyst": 103,
+    "model": 9,
+    "both": 4
+   },
+   "text_full_regulation": {
+    "items": 309,
+    "analyst": 103,
+    "model": 8,
+    "both": 4
+   },
+   "photos": {
+    "items": 350,
+    "analyst": 129,
+    "model": 10,
+    "both": 4
+   },
+   "photos_rag_fixed": {
+    "items": 349,
+    "analyst": 128,
+    "model": 8,
+    "both": 3
+   },
+   "photos_rag_case": {
+    "items": 350,
+    "analyst": 128,
+    "model": 7,
+    "both": 2
+   }
+  },
+  "claude": {
+   "text": {
+    "items": 309,
+    "analyst": 105,
+    "model": 135,
+    "both": 53
+   },
+   "text_rag_fixed": {
+    "items": 300,
+    "analyst": 103,
+    "model": 112,
+    "both": 49
+   },
+   "text_rag_case": {
+    "items": 310,
+    "analyst": 105,
+    "model": 115,
+    "both": 43
+   },
+   "text_full_regulation": {
+    "items": 302,
+    "analyst": 100,
+    "model": 101,
+    "both": 39
+   },
+   "photos": {
+    "items": 350,
+    "analyst": 129,
+    "model": 129,
+    "both": 60
+   },
+   "photos_rag_fixed": {
+    "items": 345,
+    "analyst": 126,
+    "model": 115,
+    "both": 50
+   },
+   "photos_rag_case": {
+    "items": 351,
+    "analyst": 129,
+    "model": 122,
+    "both": 57
+   }
+  }
+ },
+ "drafts": {
+  "_note": "Gemma draft opinions on the first 20 cases, without retrieval and with retrieval from the case.",
+  "n_cases": 20,
+  "decision_equal_to_analyst": {
+   "no_retrieval": 8,
+   "rag_case": 12
+  },
+  "mcnemar_decision": [
+   0,
+   4
+  ],
+  "items": {
+   "no_retrieval": {
+    "items": 411,
+    "analyst": 71,
+    "model": 19,
+    "both": 3,
+    "analyst_requests_for_supplements": 54,
+    "of_which_draft_conforming": 51
+   },
+   "rag_case": {
+    "items": 411,
+    "analyst": 71,
+    "model": 21,
+    "both": 4,
+    "analyst_requests_for_supplements": 54,
+    "of_which_draft_conforming": 50
+   }
+  }
+ },
+ "first_round": {
+  "_note": "First 20 cases (10 approved, 10 rejected), photos unordered, fixed query. A response without a recommendation line counts as an error, so tp+fn+fp+tn may be below 20.",
+  "n_cases": 20,
+  "gemma": {
+   "decisions": {
+    "text": {
+     "tp": 2,
+     "fn": 8,
+     "fp": 2,
+     "tn": 8,
+     "no_decision": 0
+    },
+    "text_rag_fixed": {
+     "tp": 3,
+     "fn": 7,
+     "fp": 2,
+     "tn": 8,
+     "no_decision": 0
+    },
+    "photos_unordered": {
+     "tp": 3,
+     "fn": 7,
+     "fp": 5,
+     "tn": 5,
+     "no_decision": 0
+    },
+    "photos_unordered_rag_fixed": {
+     "tp": 3,
+     "fn": 7,
+     "fp": 2,
+     "tn": 8,
+     "no_decision": 0
+    }
+   },
+   "mcnemar": {
+    "text vs photos_unordered": [
+     3,
+     1
+    ],
+    "text_rag_fixed vs photos_unordered_rag_fixed": [
+     3,
+     3
+    ],
+    "text vs text_rag_fixed": [
+     1,
+     2
+    ],
+    "photos_unordered vs photos_unordered_rag_fixed": [
+     2,
+     5
+    ]
+   }
+  },
+  "qwen": {
+   "decisions": {
+    "text": {
+     "tp": 1,
+     "fn": 9,
+     "fp": 5,
+     "tn": 5,
+     "no_decision": 1
+    },
+    "text_rag_fixed": {
+     "tp": 1,
+     "fn": 9,
+     "fp": 1,
+     "tn": 7,
+     "no_decision": 4
+    },
+    "photos_unordered": {
+     "tp": 2,
+     "fn": 8,
+     "fp": 2,
+     "tn": 6,
+     "no_decision": 5
+    },
+    "photos_unordered_rag_fixed": {
+     "tp": 2,
+     "fn": 8,
+     "fp": 3,
+     "tn": 2,
+     "no_decision": 7
+    }
+   },
+   "mcnemar": {
+    "text vs photos_unordered": [
+     2,
+     4
+    ],
+    "text_rag_fixed vs photos_unordered_rag_fixed": [
+     8,
+     4
+    ],
+    "text vs text_rag_fixed": [
+     2,
+     4
+    ],
+    "photos_unordered vs photos_unordered_rag_fixed": [
+     7,
+     3
+    ]
+   }
+  }
+ }
+}
